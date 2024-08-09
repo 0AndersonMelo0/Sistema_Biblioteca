@@ -72,3 +72,6 @@ CREATE TABLE IF NOT EXISTS emprestimos(
   FOREIGN KEY (aluno_id) REFERENCES aluno(id),
   FOREIGN KEY (titulo_livro, numero_registro) REFERENCES livros(titulo_livro, numero_registro)
 );
+
+
+
